@@ -1,0 +1,92 @@
+body {
+  /*font: [Spartan](https://fonts.google.com/specimen/Spartan);*/
+}
+
+#about-and-rating{
+  position: relative;
+  display: flex;
+  left : 15%;
+}
+
+#reviews{
+  position:relative;
+  display: flex;
+  left : 15%;
+
+}
+
+#about {
+  width: 400px;
+  margin: 10px 14px 10px;
+  color: hsl(300, 43%, 22%);
+}
+
+#about h1{
+   font-size: 50px;
+   
+}
+
+#container-1-rating{
+  left: 10px ;
+  top: 50px;
+} 
+
+#container-2-rating{
+     left: 50px ;
+     top: 60px;
+}
+
+#container-3-rating{
+  left: 100px ;
+  top: 70px;
+}
+
+#container-1-review{
+/* top: px;*/
+}
+
+#container-2-review{
+  top: 10px;
+}
+
+#container-3-review{
+  top: 20px;
+}
+
+.container-review{
+  position: relative;
+  background-color: hsl(300, 43%, 22%);
+  color:white;
+  width : 300px;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+  border-radius: 10px;
+}
+
+.container-review h5{
+  color: hsl(300, 69%, 34%);
+}
+
+.container-rating{
+  position: relative;
+  display: flex;
+  margin: 20px 20px 14px 14px;
+  background-color: hsl(330, 50%, 95%);
+  color: hsl(300, 43%, 22%);
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  height:30px;
+  width: 400px;
+}
+
+.container-rating-stars{
+  margin-right: 60px;
+  top : 5px;
+  
+}
+
+img {
+  border-radius: 50%;
+  width: 35px;
+  height: 50px;
+}
